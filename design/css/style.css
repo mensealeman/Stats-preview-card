@@ -40,25 +40,37 @@ body {
     background-color: hsl(244, 38%, 16%);
 }
 
+.contenedor {
+    /* 327 x 781 */
+    background-color: hsl(233, 47%, 7%);
+    border: solid 1px hsl(233, 47%, 7%);
+    border-radius: 1rem;
+    width: 327px;
+    height: 781px;
+    align-items: center;
+    justify-content: center;
+    margin: 8rem 0 8rem 0;
+}
+
 .bgimg1 {
     background-image: url(/images/image-header-mobile.jpg);
     background-size: cover;
     background-image: no-repeat;
+    align-items: center;
     position: relative;
-    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    width: 327px;
     height: 242px;
     /*  328x242  */
 }
 
 main section div .bgimg2 {
-    background-color: rgba(170, 92, 219, .6);
+    background-color: hsl(277, 64%, 61%, .6);
     width:100%;
     height: 100%;
-    position: absolute; 
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    border: ;
+   
 }
 
 main {
@@ -84,22 +96,29 @@ section p {
     line-height: 1.8;
 }
 
+.marpa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .marpa .mp1 h3, h6{
     margin: 0;
     padding: 3px;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .marpa .mp1 h6 {
     margin-bottom: 2rem;
+    
 }
 
 .marpa .mp2 h3, h6{
     margin: 0;
-    padding: 3px;
-    justify-content: center;
-    align-items: center;
+    padding: 3px;  
 }
 
 .marpa .mp2 h6 {
@@ -108,15 +127,12 @@ section p {
 
 .marpa .mp3 h3, h6{
     margin: 0;
-    padding: 3px;
-    justify-content: center;
-    align-items: center;
+    padding: 3px;  
 }
 
 .marpa .mp3 h6 {
     margin-bottom: 2rem;
 }
-
 
 section h2, h3 {
     color: hsl(0, 0%, 100%);
@@ -132,26 +148,4 @@ section h6 {
 
 span {
     color: hsl(277, 64%, 61%);
-}
-
-
-
-
-
-
-
-/*-----------------Footer----------------*/
-section .attribution {
-    margin-top: 4rem;
-
-}
-
-head .attribution {
-     font-size: 11px;
-     text-align: center;
-     
-}
-
-head .attribution {
-    color: hsl(228, 45%, 44%);
 }
