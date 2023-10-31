@@ -1,0 +1,155 @@
+html {
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    /*
+    margin: 0;
+    padding: 0;
+    */
+}
+
+:root {
+    /*------------------Primary------------------*/
+    --variable: hsl(233, 47%, 7%);
+    /* Main Background - Very dark blue */
+    --variable: hsl(244, 38%, 16%);
+    /* Card Background - Dark desaturated blue */
+    --variable: hsl(277, 64%, 61%);
+    /* Accent - Soft violet */
+
+    /*------------------Neutral------------------*/
+    --variable: hsl(0, 0%, 100%);
+    /* Main heading, stats - White */
+    --variable: hsla(0, 0%, 100%, 0.75);
+    /* Main paragraph - Slightly transparent white  */
+    --variable: hsla(0, 0%, 100%, 0.6);
+    /* Stat headings - Slightly transparent white */
+}
+
+*, *:before, *:after{ /*Esto hace que no cambie el tamaño de las cajas*/
+    box-sizing: inherit;
+} 
+
+
+body {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+
+    background-color: hsl(244, 38%, 16%);
+}
+
+.bgimg1 {
+    background-image: url(/images/image-header-mobile.jpg);
+    background-size: cover;
+    background-image: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 242px;
+    /*  328x242  */
+}
+
+main section div .bgimg2 {
+    background-color: rgba(170, 92, 219, .6);
+    width:100%;
+    height: 100%;
+    position: absolute; 
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section h2 {
+    margin: 3rem 8rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section p {
+    justify-content: center;
+    align-items: center;
+    margin: 0 4rem 3rem 4rem;
+    line-height: 1.8;
+}
+
+.marpa .mp1 h3, h6{
+    margin: 0;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.marpa .mp1 h6 {
+    margin-bottom: 2rem;
+}
+
+.marpa .mp2 h3, h6{
+    margin: 0;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.marpa .mp2 h6 {
+    margin-bottom: 2rem;
+}
+
+.marpa .mp3 h3, h6{
+    margin: 0;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.marpa .mp3 h6 {
+    margin-bottom: 2rem;
+}
+
+
+section h2, h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+section p, h6 {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+section h6 {
+    text-transform: uppercase;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+
+
+
+
+
+
+/*-----------------Footer----------------*/
+section .attribution {
+    margin-top: 4rem;
+
+}
+
+head .attribution {
+     font-size: 11px;
+     text-align: center;
+     
+}
+
+head .attribution {
+    color: hsl(228, 45%, 44%);
+}
