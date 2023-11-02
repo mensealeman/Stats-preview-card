@@ -64,12 +64,12 @@ body {
     /*  328x242  */
 }
 
-main section div .bgimg2 {
+.bgimg2 {
     background-color: hsl(277, 64%, 61%, .6);
     width:100%;
     height: 100%;
-    position: absolute;
-    border: ;
+    
+    
    
 }
 
@@ -81,18 +81,19 @@ main {
 }
 
 section h2 {
-    margin: 3rem 8rem;
+    margin: 3rem 5rem;
     justify-content: center;
     align-items: center;
-    text-align-last: center;
+    text-align: center;
+    line-height: 1.8;
     
 }
 
 section p {
     justify-content: center;
     align-items: center;
-    text-align-last: center;
-    margin: 0 4rem 3rem 4rem;
+    text-align: center;
+    margin: 3rem 3rem;
     line-height: 1.8;
 }
 
@@ -106,7 +107,7 @@ section p {
 
 .marpa .mp1 h3, h6{
     margin: 0;
-    padding: 3px;
+    padding: 5px;
     justify-content: center;
     
 }
@@ -118,7 +119,7 @@ section p {
 
 .marpa .mp2 h3, h6{
     margin: 0;
-    padding: 3px;  
+    padding: 5px;  
 }
 
 .marpa .mp2 h6 {
@@ -127,7 +128,7 @@ section p {
 
 .marpa .mp3 h3, h6{
     margin: 0;
-    padding: 3px;  
+    padding: 5px;  
 }
 
 .marpa .mp3 h6 {
