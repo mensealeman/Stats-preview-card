@@ -50,6 +50,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 8rem 0 8rem 0;
+    overflow: hidden;
 }
 
 .bgimg1 {
@@ -68,9 +69,7 @@ body {
     background-color: hsl(277, 64%, 61%, .6);
     width:100%;
     height: 100%;
-    
-    
-   
+
 }
 
 main {
@@ -144,6 +143,10 @@ section p, h6 {
 }
 
 section h6 {
+    text-transform: uppercase;
+}
+
+.mp3 h3 {
     text-transform: uppercase;
 }
 
