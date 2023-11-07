@@ -12,20 +12,20 @@ html {
 
 :root {
     /*------------------Primary------------------*/
-    --variable: hsl(233, 47%, 7%);
+    --Verydarkblue: hsl(233, 47%, 7%);
     /* Main Background - Very dark blue */
-    --variable: hsl(244, 38%, 16%);
-    /* Card Background - Dark desaturated blue */
-    --variable: hsl(277, 64%, 61%);
-    /* Accent - Soft violet */
+    --Darkdesaturatedblue: hsl(244, 38%, 16%);
+    /* Card Background */
+    --Softviolet: hsl(277, 64%, 61%);
+    /* Accent */
 
     /*------------------Neutral------------------*/
-    --variable: hsl(0, 0%, 100%);
-    /* Main heading, stats - White */
-    --variable: hsla(0, 0%, 100%, 0.75);
-    /* Main paragraph - Slightly transparent white  */
-    --variable: hsla(0, 0%, 100%, 0.6);
-    /* Stat headings - Slightly transparent white */
+    --White: hsl(0, 0%, 100%);
+    /* Main heading, stats */
+    --Slightlytransparentwhite: hsla(0, 0%, 100%, 0.75);
+    /* Main paragraph */
+    --Slightlytransparentwhite: hsla(0, 0%, 100%, 0.6);
+    /* Stat headings */
 }
 
 *, *:before, *:after{ /*Esto hace que no cambie el tamaño de las cajas*/
@@ -37,13 +37,12 @@ body {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
 
-    background-color: hsl(244, 38%, 16%);
+    background-color: var(--Verydarkblue);
 }
 
 .contenedor {
     /* 327 x 781 */
-    background-color: hsl(233, 47%, 7%);
-    border: solid 1px hsl(233, 47%, 7%);
+    background-color: var(--Darkdesaturatedblue);
     border-radius: 1rem;
     width: 327px;
     height: 781px;
@@ -135,11 +134,11 @@ section p {
 }
 
 section h2, h3 {
-    color: hsl(0, 0%, 100%);
+    color: var(--White);
 }
 
 section p, h6 {
-    color: hsla(0, 0%, 100%, 0.75);
+    color: var(--Slightlytransparentwhite);
 }
 
 section h6 {
@@ -151,7 +150,7 @@ section h6 {
 }
 
 span {
-    color: hsl(277, 64%, 61%);
+    color: var(--Softviolet);
 }
 
 
