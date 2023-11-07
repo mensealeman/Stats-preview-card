@@ -54,7 +54,7 @@ body {
 }
 
 .bgimg1 {
-    background-image: url(/images/image-header-mobile.jpg);
+    background-image: url(../images/image-header-mobile.jpg);
     background-size: cover;
     background-image: no-repeat;
     align-items: center;
@@ -173,7 +173,7 @@ span {
        /* 539px x 447px  567*/
        width: 539px;
        height: 100%;
-       background-image: url(/images/image-header-desktop.jpg);
+       background-image: url(../images/image-header-desktop.jpg);
        background-size: cover;
        background-image: no-repeat;
        align-items: center;
